@@ -2,7 +2,10 @@
 
 
 const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
-  const all = mpg * fuelLeft
- let result = all === distanceToPump ? 1 : 0
- return result
+  const all = mpg * fuelLeft  
+  if(all >= distanceToPump){
+    return true;
+  } else {
+    return false;
+    }
   }
