@@ -1,0 +1,14 @@
+/*class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    const mini = Math.min(...args)
+     return mini
+  }
+}*/
+
+//My code
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    const mini = Math.min(...args)
+     return mini
+  }
+}
