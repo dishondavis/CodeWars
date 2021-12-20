@@ -4,11 +4,13 @@ Examples
 "This is an example!" ==> "sihT si na !elpmaxe"
 "double  spaces"      ==> "elbuod  secaps"
 
-//My code 
-const reverseWords = (str) => {
-  const arr = str.split(" ");
-  const reverse = arr.map(el => {
-   return el.split("").reverse().join("")
-  })
-  return reverse.join(" ")
-} 
+
+function reverseWords(str){
+ let rw = " "
+ for(let i = str[str.length - 1]; i >= 0;i--){
+     rw += str[i]
+}
+return rw
+ 
+
+}
